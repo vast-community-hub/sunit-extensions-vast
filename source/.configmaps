@@ -1,0 +1,12 @@
+[
+	{
+		#applications : [
+			'VastSUnitExtensionsApp' : '1.0',
+			'VastSUnitExtensionsExamplesApp' : '1.0'
+		],
+		#conditions : [ ],
+		#name : 'VastSUnitExtensions',
+		#versionName : '1.0',
+		#comment : ''
+	}
+]
