@@ -1,19 +1,33 @@
 [
 	{
-		#applications : [
-			'VastSUnitExtensionsApp' : '1.0',
-			'VastSUnitExtensionsExamplesApp' : '1.0'
-		],
 		#conditions : [
 			{
 				#condition : 'true',
 				#requiredMaps : [
-					'z.ST: SUnit' : 'V 9.2.1  [457]'
+					{
+						#name : 'z.ST: SUnit',
+						#versionName : 'V 9.2.1  [457]',
+						#ts : 3761144594
+					}
 				]
 			}
 		],
+		#ts : 3767357396,
+		#comment : '',
+		#formatVersion : '1.1',
+		#applications : OrderedCollection [
+			{
+				#name : 'VastSUnitExtensionsApp',
+				#versionName : '1.0',
+				#ts : 3712905599
+			},
+			{
+				#name : 'VastSUnitExtensionsExamplesApp',
+				#versionName : '1.0',
+				#ts : 3712906759
+			}
+		],
 		#name : 'VastSUnitExtensions',
-		#versionName : '1.1',
-		#comment : ''
+		#versionName : '1.1'
 	}
 ]
