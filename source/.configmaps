@@ -4,9 +4,16 @@
 			'VastSUnitExtensionsApp' : '1.0',
 			'VastSUnitExtensionsExamplesApp' : '1.0'
 		],
-		#conditions : [ ],
+		#conditions : [
+			{
+				#condition : 'true',
+				#requiredMaps : [
+					'z.ST: SUnit' : 'V 9.2.1  [457]'
+				]
+			}
+		],
 		#name : 'VastSUnitExtensions',
-		#versionName : '1.0',
+		#versionName : '1.1',
 		#comment : ''
 	}
 ]
