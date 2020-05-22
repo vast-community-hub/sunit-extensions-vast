@@ -1,5 +1,5 @@
 | loader path |
-path := ((CfsPath named: CfsDirectoryDescriptor getcwd) append: '..\tonel-repos\sunit-extensions-vast').
+path := (CfsPath named: '<insert path to root sunit-extensions-vast local repo here>').
 loader := TonelLoader readFromPath: path.
 loader
 	beUnattended;
