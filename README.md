@@ -1,6 +1,6 @@
 <p align="center">
 <!---<img src="assets/logos/128x128.png">-->
- <h1 align="center">SUnit Extensions for VASmalltalk</h1>
+ <h1 align="center">SUnit Extensions for VAST Platform (VA Smalltalk)</h1>
   <p align="center">
     VAST Extensions to SUnit
     <!---
