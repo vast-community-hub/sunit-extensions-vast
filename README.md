@@ -48,7 +48,11 @@ Or you can load the Configuration Map `VastSUnitExtensions` from the context men
 
 This repository includes tests which also work as examples for users to get started. Check the application `VastSUnitExtensionsExamplesApp` and you will find examples such as `TestEtDictionaryInspector`, `TestEtTextComparisonBrowser`, `TestEtWorkspace`, etc.
 
+<img alt="TestEtTextComparisonBrowser" src="assets/screenshots/testSelectedMethod.png">
+
 Ultimately, all you need to do is to subclass `EtWindowsTestCase` or `UITestCase` and call their API from within your tests.
+
+
 
 ## Contributing
 
