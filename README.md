@@ -58,7 +58,7 @@ Ultimately, all you need to do is to subclass `EtWindowsTestCase` or `UITestCase
 
 The best way to get started with the JUnitXML feature is by checking the application `JUnitXMLRendererModelTests` and its tests. There is also an example `RunTestSuiteAndReportResultAsJUnitXML` that is pretty close to what you would call from a CI:
 
-
+<img alt="JUnitXML-Renderer" src="assets/screenshots/JUnitXML-Renderer.png">
 
 
 ## Acknowledgments
