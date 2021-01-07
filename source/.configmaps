@@ -12,22 +12,32 @@
 				]
 			}
 		],
-		#ts : 3767357396,
+		#ts : 3787472100,
 		#comment : '',
 		#formatVersion : '1.1',
 		#applications : OrderedCollection [
 			{
-				#name : 'VastSUnitExtensionsApp',
+				#name : 'JUnitXMLRendererModel',
 				#versionName : '1.0',
-				#ts : 3712905599
+				#ts : 3787468214
+			},
+			{
+				#name : 'JUnitXMLRendererModelTests',
+				#versionName : '1.0',
+				#ts : 3787468254
+			},
+			{
+				#name : 'VastSUnitExtensionsApp',
+				#versionName : '7065053-master',
+				#ts : 3787471775
 			},
 			{
 				#name : 'VastSUnitExtensionsExamplesApp',
-				#versionName : '1.0',
-				#ts : 3712906759
+				#versionName : '7065053-master',
+				#ts : 3787471778
 			}
 		],
 		#name : 'VastSUnitExtensions',
-		#versionName : '1.1'
+		#versionName : '1.2'
 	}
 ]
