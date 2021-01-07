@@ -15,8 +15,9 @@
   </p>
 </p>
 
-
- UI Eventing Framework to use for SUnit Testing. This allows users to also write SUnit Test for GUI components.
+Pack of extensions to use with SUnit Testing. Currently it provides:
+- *UI Eventing Framework* that allows users to also write SUnit Test for GUI components.
+- *JUnitXML Renderer* that allows writing the SUnit results into the JUnit XML format that is widely used in CI (Continuous Integration) tools.
 
 ## License
 - The code is licensed under [MIT](LICENSE).
@@ -44,7 +45,7 @@ Or you can load the Configuration Map `VastSUnitExtensions` from the context men
 
 5. Optionally run the SUnit tests included in the map `VastSUnitExtensions` to ensure correct installation. One easy way is to right-click on the `VastSUnitExtensions` map name in the Name pane (as opposed to version pane ) and then select `Test Loaded Applications`.
 
-## Quick Start
+## UI Eventing Framework - Quick Start
 
 This repository includes tests which also work as examples for users to get started. Check the application `VastSUnitExtensionsExamplesApp` and you will find examples such as `TestEtDictionaryInspector`, `TestEtTextComparisonBrowser`, `TestEtWorkspace`, etc.
 
@@ -52,6 +53,17 @@ This repository includes tests which also work as examples for users to get star
 
 Ultimately, all you need to do is to subclass `EtWindowsTestCase` or `UITestCase` and call their API from within your tests.
 
+
+## JUnitXML Renderer - Quick Start
+
+The best way to get started with the JUnitXML feature is by checking the application `JUnitXMLRendererModelTests` and its tests. There is also an example `RunTestSuiteAndReportResultAsJUnitXML` that is pretty close to what you would call from a CI:
+
+
+
+
+## Acknowledgments
+
+- [Juan Escalada](https://github.com/JuanEscalada) and [Mercap Software](https://github.com/Mercap) for their initial version of the JUnitXML Renderer.
 
 
 ## Contributing
